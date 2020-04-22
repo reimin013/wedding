@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>Wedding</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+    </script>
+
+
+<!-- スムーズスクロール部分の記述 -->
+  <script type="text/javascript">
+  //ブラウザを読み込んだら実行
+  $(function(){
+    //ブラウザのウインドウ幅を取得
+    var width =  $(window).width();
+    //href属性に「＃」が入っているaタグをクリックしたら実行
+    $('a[href*="#"]').click(function() {
+      //スピード　1秒
+    var speed = 1000;
+    //飛び先を取得
+    var href= $(this).attr("href");
+    //飛び先取得の際、空or"#"のみだったら飛び先を「html」に設定
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    //飛び先の要素のポジション座標を取得する
+    var position = target.offset().top;
+    //ここで取得した値をここに代入してスムーススクロールを実行する。
+    $('body,html').animate({scrollTop:position}, speed, 'swing');
+    return false;
+  });
+  });
+  </script>
+
+  </head>
+<body>
+  <header>
+      <div class="header-list">
+        <a href="#concept">concept</a>
+        <a href="#the-wedding">the wedding</a>
+        <a href="#about-us">about us</a>
+        <a href="#photos">photos</a>
+      </div>
+
+  <h1>Takumi & Reimi</h1>
+  <h2>Match 1st, 2020</h2>
+</header>
+
+<div class="concept">
+  <div id="concept" class="contents-title">concept</div>
+  <h3>ヒトコエ</h3>
+    <p>人生はいつだって　その一声からはじまる</p>
+    <p>どんな大きな夢や志も　最初は小さな意思だ</p>
+    <p>いつか　ふと　自分の使命に気付いたときから　僕の人生は動き出した</p>
+    <p>あのとき　あなたに　自分の思いを伝えたときから　私の人生は変わった</p>
+    <p>自分の声から　人生ははじまる</p>
+    <p>ヒトコエ</p>
+    <p>宣言しよう　目指す世界を　好きな気持ちを</p>
+    <p>ひとつの小さな声も　ふたつになれば動きだす</p>
+    <p>ひと越えだって ふた越えだって どこまでも</p>
+    <p>あなたの声は　伝えるためにある</p>
+</div>
+
+<div class="slider">
+  <img src="IMG_1909.jpeg" width="500" height="900" alt="">
+  <img src="IMG_2554.JPG" width="500" height="900" alt="">
+  <img src="IMG_2251.JPG" width="500" height="900" alt="">
+  <img src="IMG_4103.JPG" width="500" height="900" alt="">
+  <img src="IMG_4106.JPG" width="500" height="900" alt="">
+</div>
+
+
+<div class="the-wedding">
+  <div id="the-wedding" class="contents-title">the wedding</div>
+  <p>ご多用中まことに恐縮ですが、結婚式にお立ち会いいただき、私たちの新しい旅立ちを見届けていただければ幸いです。</p>
+  <li>日時：</li>
+  <p>2020年3月1日（日）</p>
+  <p>受付　正午より</p>
+  <p>挙式  12:30 より  披露宴 13:10 より</p>
+  <li>場所：</li>
+  <p>シエロイリオ</p>
+  <p>〒111-0051 東京都台東区蔵前２丁目１５−５ MIRROR 5F</p>
+  <p>都営大江戸線 蔵前駅A7番出口　徒歩２分</p>
+  <p>都営浅草線 蔵前駅A2番出口　徒歩５分</p>
+  <p><a href="https://www.cieloyrio.com/">アクセスはこちら</a></p>
+</div>
+
+<div class="about-us">
+  <div id="about-us" class="contents-title">about us</div>
+    <table border="0" width="100%">
+      <tr>
+        <th>Takumi Goto</th><th>Reimi Saito</th>
+      </tr>
+      <tr>
+        <td>＊誕生日：　1989.08.19</td><td>＊誕生日：　1995.08.31</td>
+      </tr>
+      <tr>
+        <td>＊血液型：　O型</td><td>＊血液型：　A型</td>
+      </tr>
+      <tr>
+        <td>＊好きな食べ物：　カレー・ラーメン・煮物</td><td>＊好きな食べ物：　唐揚げ・チョコレート</td>
+      </tr>
+      <tr>
+        <td>＊思い出のデート：　箱根旅行</td><td>＊思い出のデート：　星の王子さまのミュージカル</td>
+      </tr>
+      <tr>
+        <td>＊相手の好きなところ：　聡明で真面目でまっすぐなところ</td><td>＊相手の好きなところ：　情熱的で優しくて面白いところ</td>
+      </tr>
+      <tr>
+        <td>＊第一印象：　真面目そう</td><td>＊第一印象：　こわそう</td>
+      </tr>
+      <tr>
+        <td>＊将来の夢：　世界平和</td><td>＊将来の夢：　幸せな家庭を築く</td>
+      </tr>
+      <tr>
+        <td>＊相手に一言：　いつもご飯作ってくれてありがとう</td><td>＊相手に一言：　いつも応援してくれてありがとう</td>
+      </tr>
+    </table>
+</div>
+
+<div class="photos">
+  <div id="photos" class="contents-title">photos</div>
+
+  <div class="slider">
+    <img src="wedding1.jpg" width="500" height="900" alt="">
+    <img src="wedding2.jpg" width="500" height="900" alt="">
+    <img src="wedding3.jpg" width="500" height="900" alt="">
+    <img src="wedding4.jpg" width="500" height="900" alt="">
+    <img src="wedding5.jpg" width="500" height="900" alt="">
+  </div>
+
+
+  </div>
+</div>
+
+<div class="footer">
+      <div class="footer-logo">
+        <p>© 2020 By Takumi Goto & Reimi Saito. </p>
+      </div>
+</div>
+</body>
+</html>

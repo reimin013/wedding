@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.headre-list {
+  float: left;
+}
+
+.header-list a:hover{
+    color: #5f5f5f;
+}
+
+.header-list a{
+  text-decoration: none;
+  margin: 50px 30px;
+  font-size: 30px;
+  color: #2E2E2E;
+  font-family: "arial black";
+  line-height: 130px;
+}
+
+header{
+  background-image: url(family.jpg);
+  background-size: cover;
+  height: 1000px;
+}
+
+h1{
+  font-size: 100px;
+  color: #FF8000;
+  font-family: "cursive";
+  font-weight: bold;
+  text-align: center;
+  padding-top: 500px;
+}
+
+h2{
+  font-size: 50px;
+  color: #FF8000;
+  font-family: "cursive";
+  font-weight: bold;
+  text-align: center;
+}
+
+.contents-title{
+  margin: 0 20px;
+  font-size: 30px;
+  border-bottom: 2px solid #DDDDDD;
+  font-family: "cursive";
+  padding: 15px 0;
+  margin-bottom: 50px;
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier';
+}
+
+#concept{
+  font-size: 40px;
+  padding: 20px 20px;
+  color: #2E2E2E;
+  font-family: "arial black";
+}
+
+.concept{
+  background-color: #e6e6fa;
+  /*height: 1800px;*/
+}
+
+.concept p{
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 20px;
+  font-family: 'Courier';
+}
+
+#the-wedding{
+  font-size: 40px;
+  padding: 20px 20px;
+  color: #2E2E2E;
+  font-family: "arial black";
+}
+
+.the-wedding{
+  background-color:#e9967a;
+  height: 600px;
+}
+
+
+.the-wedding li{
+  margin-left: 60px;
+}
+
+.the-wedding p{
+  margin-left: 80px;
+  font-family: 'Courier';
+}
+
+.the-wedding a{
+  padding-left: 20px;
+}
+
+#about-us{
+  font-size: 40px;
+  padding: 20px 20px;
+  color: #2E2E2E;
+  font-family: "arial black";
+}
+
+.about-us{
+  background-color:#deb887;
+  height: 600px;
+}
+
+table{
+  height: 300px;
+}
+
+table th {/*table内のthに対して*/
+  padding: 10px;/*上下左右10pxずつ*/
+  font-size: 30px;
+  font-family: 'Courier';
+  text-align: center;
+}
+
+table td {/*table内のtdに対して*/
+  padding: 10px 50px;
+  font-family: 'Courier';
+}
+
+#photos{
+  font-size: 40px;
+  padding: 20px 20px;
+  color: #2E2E2E;
+  font-family: "arial black";
+}
+
+.footer-logo p{
+  text-align: center;
+  margin: 30px 0;
+}
